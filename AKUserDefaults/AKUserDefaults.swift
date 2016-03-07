@@ -152,6 +152,7 @@ public struct URLKey : KeyProtocol, Removable {
 
 
 public class AKUserDefaults {
+    public init(){}
     public func synchronize() -> Bool {
         return NSUserDefaults.standardUserDefaults().synchronize()
     }
